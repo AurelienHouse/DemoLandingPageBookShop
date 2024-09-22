@@ -2,7 +2,7 @@
 
 import { TypewriterEffect } from "./ui/typewriter-effect";
 
-export function TypewriterEffectDemo() {
+export const TypewriterEffectDemo = ({ className = "" }) => {
   const words = [
     {
       text: "Choisir",
@@ -31,11 +31,11 @@ export function TypewriterEffectDemo() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center m-10 ">
+    <div className={`${className} flex flex-col items-center justify-center m-10`}>
     
       <TypewriterEffect words={words} />
       
       
     </div>
   );
-}
+};

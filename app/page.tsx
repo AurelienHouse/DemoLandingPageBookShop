@@ -9,7 +9,7 @@ export default function Home() {
         <NavBar />
         <main className="flex-grow container mx-auto gap-10 p-2 flex">
           <div className="w-1/2 flex flex-col items-center">
-            <TypewriterEffectDemo />
+            <TypewriterEffectDemo className="w-full custom:w-1/2 text-sm custom:text-lg" />
             <button className="bg-blue-300 hover:bg-blue-500 text-white px-6 py-3 rounded-full font-bold shadow-lg">
               Voir notre collection
             </button>

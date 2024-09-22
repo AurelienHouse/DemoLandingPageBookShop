@@ -18,10 +18,10 @@ export default function NavBar() {
           </button>
 
           <div className={`${isMenuOpen ? 'block' : 'hidden'} md:flex w-full md:w-auto md:space-x-6 mt-4 md:mt-0`}>
-            <Link href="/livres" className="block md:inline-block hover:underline hover:text-blue-600 transition duration-300 mb-2 md:mb-0">Livres</Link>
-            <Link href="/auteurs" className="block md:inline-block hover:underline hover:text-blue-600 transition duration-300 mb-2 md:mb-0">Auteurs</Link>
-            <Link href="/articles" className="block md:inline-block hover:underline hover:text-blue-600 transition duration-300 mb-2 md:mb-0">Articles</Link>
-            <Link href="/a-propos" className="block md:inline-block hover:underline hover:text-blue-600 transition duration-300 mb-2 md:mb-0">À propos</Link>
+            <Link href="/livres" className="block md:inline-block hover:underline hover:text-blue-600 hover:underline-offset-4 transition duration-300 mb-2 md:mb-0">Livres</Link>
+            <Link href="/auteurs" className="block md:inline-block hover:underline hover:text-blue-600 hover:underline-offset-4 transition duration-300 mb-2 md:mb-0">Auteurs</Link>
+            <Link href="/articles" className="block md:inline-block hover:underline hover:text-blue-600 hover:underline-offset-4 transition duration-300 mb-2 md:mb-0">Articles</Link>
+            <Link href="/a-propos" className="block md:inline-block hover:underline hover:text-blue-600 hover:underline-offset-4 transition duration-300 mb-2 md:mb-0">À propos</Link>
           </div>
 
           <div className={`${isMenuOpen ? 'block' : 'hidden'} md:flex items-center w-full md:w-auto mt-4 md:mt-0`}>
