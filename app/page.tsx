@@ -11,7 +11,8 @@ export default function Home() {
           <div className="w-1/2 flex flex-col items-center">
             <TypewriterEffectDemo className="w-full custom:w-1/2 text-sm custom:text-lg" />
             <a href="https://www.epagine.fr/listeliv.php?refgtl=home&base=ebook&select_tri_recherche=&codegtl1=1000000&codegtl2=1010000&rayon=Litt%26eacute%3Brature+g%26eacute%3Bn%26eacute%3Brale%7CRomans+%26amp%3B+Nouvelles">
-              <button className="bg-blue-300 hover:bg-blue-500 text-white px-6 py-3 rounded-full font-bold shadow-lg">
+              <button className="bg-blue-300 hover:bg-blue-500 text-white px-6 py-3 rounded-full font-bold shadow-lg flex items-center">
+                <img src="https://images.emojiterra.com/google/android-nougat/512px/1f4d6.png" alt="livres" className="w-6 h-6 mr-2" /> 
                 Voir notre collection
               </button>
             </a>
